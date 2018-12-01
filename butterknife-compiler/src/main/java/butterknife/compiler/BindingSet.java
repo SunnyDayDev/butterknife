@@ -57,7 +57,7 @@ final class BindingSet {
   private static final ClassName UNBINDER = ClassName.get("butterknife", "Unbinder");
   static final ClassName BITMAP_FACTORY = ClassName.get("android.graphics", "BitmapFactory");
   static final ClassName CONTEXT_COMPAT_LEGACY =
-      ClassName.get("android.support.v4.content", "ContextCompat");
+      ClassName.get("android.sup" + new String("port.v4.content"), "ContextCompat");
   static final ClassName CONTEXT_COMPAT =
       ClassName.get("androidx.core.content", "ContextCompat");
   static final ClassName ANIMATION_UTILS =
